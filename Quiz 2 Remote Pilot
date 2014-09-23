@@ -1,0 +1,48 @@
+Zentertain Developer Interview Quiz
+===================================
+
+TODO basic requirement
+* Object Oriented Design
+* Clean Code
+* Unit Test / Test?
+* Git history
+
+背景
+----------
+
+> NASA 正在计划一个叫做MarsRover的新计划。这个计划是一轮新的火星探索，科学家将投放一组无人驾驶的火星探测车 MarsRover 到火星表面，做地面探索。
+
+> MarsRover 计划有一组研究课题组成，你可以从中选择一个你有兴趣的参加
+
+Quiz 2:
+发现A到E路径，要求遍历所有的PoI。可以使用多个MarsRover，但是要求MarsRover的使用数最少，所有MarsRover的能量总消耗最小
+
+## 2. Remote Pilot 项目
+
+> Remote Pilot 项目主要是负责开发 MarsRover 的远程巡航控制系统。MarsRover能够接受一系列的指令，并根据指令移动。
+
+MarsRover 接受下列指令:
+
+* M: 前进1个单元
+* L: 左转90度
+* R: 右转90度
+* B: 后退一个单元
+
+假设需要探索的区域是一个方形区域。Rover的位置和朝向使用一组x,y坐标和一个字母表示。'N','S','E','W'分别表示“北”，“南”，“东”，“西”
+
+    0,0,N 表示Rover在坐标 0,0 的位置，并且朝向是北
+
+如果同时释放多个Rover，那么所有的Rover会同时行动，并且Rover应该足够聪明，避免互相碰撞。
+如果Rover移动出了探索区域，Rover将并输出DEAD，并且忽略后续指令。
+
+### Input
+
+20,20 // 探索区域的长宽
+0,0,N
+MMMMRMMMRMMMRLMMMR
+3,3,E
+MMRMRMMRRMRMLM
+
+Expected Output
+每一个指令周期小车的坐标和朝向
+
