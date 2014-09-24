@@ -14,9 +14,6 @@ TODO basic requirement
 
 > MarsRover 计划有一组研究课题组成，你可以从中选择一个你有兴趣的参加
 
-Quiz 2:
-发现A到E路径，要求遍历所有的PoI。可以使用多个MarsRover，但是要求MarsRover的使用数最少，所有MarsRover的能量总消耗最小
-
 ## 2. Remote Pilot 项目
 
 > Remote Pilot 项目主要是负责开发 MarsRover 的远程巡航控制系统。MarsRover能够接受一系列的指令，并根据指令移动。

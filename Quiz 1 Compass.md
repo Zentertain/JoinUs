@@ -18,6 +18,8 @@ TODO basic requirement
 
 > Compass 项目 主要是做火星路线的规划。火星表面有一组需要观测的兴趣地点(PoI)，NASA希望Mars Rover可以以某种顺序探索其中的特定的一部分。
 
+Quiz 1:
+
 规划后的路由使用有向图来描述，其中节点表示的是PoI，边表达的是PoI之间的路径，边的权重表示的是MarsRover从其中一个点移动到另外一个点所消耗的能量。边的起点和终点不会为同一个。
 
 从探索有效性的角度出发，所有的路径都是单行的，有从A到B的路径不代表有从B到A的路径。事实上，如果正向、反向的路径确实同时存在的话，它们将是不同的两条路径，并且权重不一定相同。
@@ -32,5 +34,6 @@ A->D->E
 The shortest route from A to E
 The shortest route from A To E passes D
 
+Quiz 2:
 
-
+发现A到E路径，要求遍历所有的PoI。可以使用多个MarsRover，但是要求MarsRover的使用数最少，所有MarsRover的能量总消耗最小
