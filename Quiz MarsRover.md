@@ -16,14 +16,15 @@ Zentertain Developer Interview Quiz
 
 从探索有效性的角度出发，所有的路径都是单行的，有从A到B的路径不代表有从B到A的路径。事实上，如果正向、反向的路径确实同时存在的话，它们将是不同的两条路径，并且权重不一定相同。
 
-### Input:
+###### Input:
 
 	AB5 BC4 CD8 DC8 DE6 AD5 CE2 EB3 AE7
 	A->D->E
 
-### Expected Output:
+###### Expected Output:
 
 	A点经D点至E点的最短路径
+
 
 ## 2. Remote Pilot 项目
 
@@ -55,7 +56,7 @@ MarsRover 接受下列指令:
 
 如果Rover移动出了探索区域，Rover将并输出DEAD，并且忽略后续指令。
 
-### Input
+###### Input
 
 	20,20 // 探索区域的长宽
 	0,0,N
@@ -63,9 +64,10 @@ MarsRover 接受下列指令:
 	3,3,E
 	MMRMRMMRRMRMLM
 
-### Expected Output
+###### Expected Output
 
 	每一个指令周期小车的坐标和朝向
+
 
 ## 3. Conflict Detection 项目
 
@@ -77,13 +79,14 @@ Conflict Detection 系统需要处理上述情况下的碰撞检测问题。
 
 要求：设计数据结构表达不同的形状，并考虑未来的扩展需求。
 
-### Input
+###### Input
 
 	给定两个形状和他们的位置
 
-### Expected Output
+###### Expected Output
 
 	是否碰撞
+
 
 ## 4. Neo's Schedule
 
@@ -103,6 +106,7 @@ Conflict Detection 系统需要处理上述情况下的碰撞检测问题。
 	戴眼镜 -> 刷牙 -> 洗脸 -> 穿t恤 -> 穿外套 -> 穿裤子 -> 穿袜子 -> 穿鞋
 
 注：可以自行使用英文描述任务，以避免中文处理，提交时请随附用于测试的数据文件
+
 
 ## 5. 四则运算
 
