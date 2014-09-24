@@ -33,7 +33,3 @@ A->D->E
 ### Expected Output:
 The shortest route from A to E
 The shortest route from A To E passes D
-
-Quiz 2:
-
-发现A到E路径，要求遍历所有的PoI。可以使用多个MarsRover，但是要求MarsRover的使用数最少，所有MarsRover的能量总消耗最小
