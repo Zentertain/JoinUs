@@ -10,6 +10,7 @@ TODO basic requirement
 要求
 ----------
 
-新建一个github public repository
-* 从Quiz 1到Quiz 5中任选一题作答，将完整的项目及git commit history提交到repository中
-* 将答题 repo 的链接连同个人信息发送到interview@zentertain.net
+* 从Quiz 1到Quiz 5中任选一题作答
+* 新建一个git repo
+* 将最终的git repo打包，需要包含完整的git commit history
+* 将打包连同个人信息发送到interview@zentertain.net
