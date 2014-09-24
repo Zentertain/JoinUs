@@ -21,9 +21,9 @@ Mars Auto Drive 系统需要处理上述情况下的碰撞检测问题。
 
 ### Input
 
-给定两个形状和他们的位置
+	给定两个形状和他们的位置
 
-Expected Output
+### Expected Output
 
-是否碰撞
+	是否碰撞
 
