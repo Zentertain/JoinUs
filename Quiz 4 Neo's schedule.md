@@ -1,13 +1,16 @@
 Zentertain Developer Interview Quiz
 ===================================
 
-TODO basic requirement
-* Object Oriented Design
-* Clean Code
-* Unit Test / Test?
-* Git history
+背景
+----------
 
-尼奥每天早上要做很多事情，其中有些事情要按特定的先后顺序做，如：
+> NASA 正在计划一个叫做MarsRover的新计划。这个计划是一轮新的火星探索，科学家将投放一组无人驾驶的火星探测车 MarsRover 到火星表面，做地面探索。
+
+> MarsRover 计划有一组研究课题组成，你可以从中选择一个你有兴趣的参加
+
+## 3. 宇航员起床
+
+宇航员尼奥每天早上要做很多事情，其中有些事情要按特定的先后顺序做，如：
 
 戴眼镜 -> 刷牙
 戴眼镜 -> 洗脸

@@ -1,12 +1,6 @@
 Zentertain Developer Interview Quiz
 ===================================
 
-TODO basic requirement
-* Object Oriented Design
-* Clean Code
-* Unit Test / Test?
-* Git history
-
 背景
 ----------
 
@@ -29,7 +23,19 @@ MarsRover 接受下列指令:
 
     0,0,N 表示Rover在坐标 0,0 的位置，并且朝向是北
 
-如果同时释放多个Rover，那么所有的Rover会同时行动，并且Rover应该足够聪明，避免互相碰撞。
+坐标 0，0位于地图的左下角，如图所示：
+
+
+^ N
+|
+|
+|
+|_ _ _ _ _ _>
+0,0         E
+
+
+如果同时释放多个Rover，那么所有的Rover会同时行动，如果某一回合Rover的目标位置被其他Rover占据，则原地待命一个回合，下一回合再次尝试执行该指令。
+
 如果Rover移动出了探索区域，Rover将并输出DEAD，并且忽略后续指令。
 
 ### Input

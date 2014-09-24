@@ -1,12 +1,6 @@
 Zentertain Developer Interview Quiz
 ===================================
 
-TODO basic requirement
-* Object Oriented Design
-* Clean Code
-* Unit Test / Test?
-* Git history
-
 背景
 ----------
 
@@ -27,9 +21,7 @@ Quiz 1:
 ### Input:
 
 AB5 BC4 CD8 DC8 DE6 AD5 CE2 EB3 AE7
-A->E
 A->D->E
 
 ### Expected Output:
-The shortest route from A to E
-The shortest route from A To E passes D
+A点经D点至E点的最短路径

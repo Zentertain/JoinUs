@@ -1,12 +1,6 @@
 Zentertain Developer Interview Quiz
 ===================================
 
-TODO basic requirement
-* Object Oriented Design
-* Clean Code
-* Unit Test / Test?
-* Git history
-
 背景
 ----------
 
