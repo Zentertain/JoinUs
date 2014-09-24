@@ -23,9 +23,11 @@ TODO basic requirement
 
 Mars Auto Drive 系统需要处理上述情况下的碰撞检测问题。
 
+要求：设计数据结构表达不同的形状，并考虑未来的扩展需求。
+
 ### Input
 
-两个任意位置，朝向的形状
+给定两个形状和他们的位置
 
 Expected Output
 
