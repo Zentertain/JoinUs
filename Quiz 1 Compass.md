@@ -20,8 +20,8 @@ Quiz 1:
 
 ### Input:
 
-AB5 BC4 CD8 DC8 DE6 AD5 CE2 EB3 AE7
-A->D->E
+	AB5 BC4 CD8 DC8 DE6 AD5 CE2 EB3 AE7
+	A->D->E
 
 ### Expected Output:
-A点经D点至E点的最短路径
+	A点经D点至E点的最短路径

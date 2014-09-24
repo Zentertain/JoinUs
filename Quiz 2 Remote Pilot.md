@@ -26,12 +26,12 @@ MarsRover 接受下列指令:
 坐标 0，0位于地图的左下角，如图所示：
 
 
-^ N
-|
-|
-|
-|_ _ _ _ _ _>
-0,0         E
+	^ N
+	|
+	|
+	|
+	|_ _ _ _ _ _>
+	0,0         E
 
 
 如果同时释放多个Rover，那么所有的Rover会同时行动，如果某一回合Rover的目标位置被其他Rover占据，则原地待命一个回合，下一回合再次尝试执行该指令。
@@ -40,12 +40,12 @@ MarsRover 接受下列指令:
 
 ### Input
 
-20,20 // 探索区域的长宽
-0,0,N
-MMMMRMMMRMMMRLMMMR
-3,3,E
-MMRMRMMRRMRMLM
+	20,20 // 探索区域的长宽
+	0,0,N
+	MMMMRMMMRMMMRLMMMR
+	3,3,E
+	MMRMRMMRRMRMLM
 
 Expected Output
-每一个指令周期小车的坐标和朝向
+	每一个指令周期小车的坐标和朝向
 
