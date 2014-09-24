@@ -15,7 +15,7 @@ Zentertain Developer Interview Quiz
 
 假设障碍物可能是 圆形 或 矩形，假设火星车是一个矩形。火星车在行进过程中可以朝向任意方向。
 
-Mars Auto Drive 系统需要处理上述情况下的碰撞检测问题。
+Conflict Detection 系统需要处理上述情况下的碰撞检测问题。
 
 要求：设计数据结构表达不同的形状，并考虑未来的扩展需求。
 
