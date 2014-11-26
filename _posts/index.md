@@ -1,4 +1,4 @@
-JOIN US - Zentertain 队友神，待遇高，发展快，环境好！你是牛人，我们等你！
+JOIN US - Zentertain 
 ========
 
 ## Zentertain简介
