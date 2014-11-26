@@ -3,6 +3,8 @@ JOIN US - Zentertain
 
 ## Zentertain简介
 
+Zentertain（北京创智优品科技有限公司）是一家面向全球的移动互联网公司。
+
 
 ####我们做什么
 
