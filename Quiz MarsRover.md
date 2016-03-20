@@ -18,12 +18,14 @@ Zentertain Developer Interview Quiz
 
 ###### Input:
 
-	AB5 BC4 CD8 DC8 DE6 AD5 CE2 EB3 AE7
+	AB2 BC1 CD3 DA4 DE2 AD8 CE2
 	A->D->E
 
 ###### Expected Output:
 
 	A点经D点至E点的最短路径
+	Length: 8
+	Path: A->B->C->D->E
 
 
 ## 2. Remote Pilot 项目
